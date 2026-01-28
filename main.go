@@ -19,7 +19,6 @@ func attack(charName, charClass string) string {
 	}
 }
 
-// обратите внимание на "if else" и на "else"
 func defence(charName, charClass string) string {
 	switch charClass {
 	case "warrior":
@@ -33,7 +32,6 @@ func defence(charName, charClass string) string {
 	}
 }
 
-// обратите внимание на "if else" и на "else"
 func special(charName, charClass string) string {
 	switch charClass {
 	case "warrior":
@@ -47,7 +45,6 @@ func special(charName, charClass string) string {
 	}
 }
 
-// здесь обратите внимание на имена параметров
 func startTraining(charName, charClass string) string {
 	if charClass == "warrior" {
 		fmt.Printf("%s, ты Воитель - отличный боец ближнего боя.\n", charName)
@@ -88,7 +85,6 @@ func startTraining(charName, charClass string) string {
 	return "тренировка окончена"
 }
 
-// обратите внимание на имя функции и имена переменных
 func choiseCharClass() string {
 	var approveChoice string
 	var charClass string
@@ -111,7 +107,6 @@ func choiseCharClass() string {
 	return charClass
 }
 
-// обратите внимание на имена переменных
 func main() {
 	fmt.Println("Приветствую тебя, искатель приключений!")
 	fmt.Println("Прежде чем начать игру...")
